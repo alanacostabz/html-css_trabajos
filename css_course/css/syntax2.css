@@ -1,0 +1,599 @@
+/* TARGETING ELEMENTS / TAGS */
+
+/* p {
+  font-size: 12px;
+  color: red;
+}
+
+a {
+  text-decoration: underline;
+  color: blue;
+}
+
+span {
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+div {
+  width: 100%;
+  background-color: grey;
+} */
+
+/* TARGETING ELEMENTS / TAGS */
+
+/* h2 {
+  font-size: 24px;
+}
+
+#content-header {
+  font-size: 18px;
+  color: red;
+}
+
+span {
+  display: block;
+  color: blue;
+}
+
+.deck {
+  color: red;
+} */
+
+
+/* CSS Conflicts & the Cascade */
+/* span {
+  color: blue;
+}
+
+span {
+  color: red;
+} */
+
+
+/* Inheritance */
+/* body {
+  color: red;
+}
+
+div {
+  color: blue;
+}
+
+p {
+  color: green;
+}
+
+a {
+  color: yellow;
+  text-decoration: underline;
+} */
+
+
+/* Selector Specificty */
+
+/* #main-content p {
+  color: red;
+}
+
+ p {
+   color: black;
+ }
+
+ .test {
+   color: green;
+ }
+ 
+ strong {
+   color: green;
+ } */
+
+
+ /* Important declaration */
+
+ /* p {
+   color: red !important;
+ }
+
+ #main-content p {
+   color: green;
+ } */
+
+
+ /* Targeting multiple elements */
+ /* p,
+ span,
+ a,
+ li {
+   color: red;
+   font-size: 14px;
+   font-weight: bold;
+   font-family:  Arial, Helvetica, sans-serif;
+ }
+ */
+
+
+ /* Descendant Selectors */
+/* 
+ #main-content #sub-content p {
+   color: red;
+ } */
+
+ 
+ /* children selectors */
+ /* #main-content > p {
+   color: red;
+ } */
+
+
+ /* Adjacent selectors */
+/* #all-articles h2 + p {
+  color: yellowgreen;
+} */
+
+/* Attribute Selectors */
+/* span[class~='deck'] {
+  color: purple;
+}
+
+div[id] {
+  background: grey; 
+}
+
+a[href$='pdf'] {
+  color: orangered;
+}
+
+a[href^='www'] {
+  color: deeppink;
+} */
+
+
+/* Pseudo Classes */
+/* a:hover {
+  color: red;
+}
+
+#main-content:hover {
+  background: red;
+} */
+
+
+/* Hover, Active & Visited Effects */
+/* a:hover {
+  color: red;
+}
+
+a:active {
+  color: aqua;
+}
+
+a:visited {
+  color: indigo;
+} */
+
+/* 
+First & Last Child Selectors */
+/* article p:first-child {
+  font-weight: bold;
+} */
+/* article p:first-of-type {
+  font-weight: bold;
+}
+
+/* article p:last-child {
+  color: red;
+} */
+
+/*article p:last-of-type {
+  color: red;
+} */
+
+
+/* nth child selectors */
+/* li:nth-child(1),
+li:nth-child(7) {
+  font-weight: bold;
+} */
+
+/* li:nth-child(even) {
+  background: purple;
+}
+
+li:nth-child(odd) {
+  background: blueviolet;
+} */
+
+/* li:nth-child(2n +1) {
+  color: fuchsia;
+} */
+
+
+
+
+/* nth type selectors */
+/* article:nth-child(2) {
+  background: grey;
+} */
+
+/* article:nth-of-type(1) {
+  background: grey;
+} */
+
+/* article:nth-of-type(odd) {
+  background: grey;
+}  */
+
+/* article:nth-of-type(2n +1) {
+  background: grey;
+}  */
+
+
+/* Combining Selectors */
+/* article.featured-content {
+  background: red;
+}
+
+div.featured-content {
+  background:yellowgreen;
+} */
+
+/* Universal Selector */
+/* * {
+  margin: 0;
+  padding: 0;
+  color: 
+} */
+
+
+/* Font Size */
+/* h1 {
+  font-size: 48px; 
+}
+
+h2 {
+  font-size: 32px; 
+}
+
+p {
+  font-size: 16px; 
+} */
+/* 
+article {
+  font-size: 16px;
+}
+
+article h2 {
+  font-size: 4em;
+}
+
+article p {
+  font-size: 50%;
+} */
+
+
+
+
+/* Font Family */
+/* article h2,
+article p {
+  font-family: Arial, Helvetica, sans-serif;
+} */
+
+
+
+/* Text Decoration */
+/* article {
+  text-decoration: overline;
+} */
+
+/* a {
+  text-decoration: line-through;
+} */
+
+
+
+
+/* Font Weight */
+/* h1 {
+  font-weight: normal;
+}
+
+p {
+  font-weight: 100;
+  font-family: "Yu Gothic";
+} */
+
+
+/* Text Transform */
+/* #header p {
+  text-transform: capitalize;
+}
+
+body {
+  text-transform: uppercase;
+}
+
+body > p {
+  text-transform: none;
+} */
+
+
+/* Text Colour */
+/* #header h1 {
+  color: aqua;
+}
+
+#header h2 {
+  color: #fff;
+}
+
+#header {
+  background-color: rebeccapurple;
+} */
+
+
+
+/* Styling Links */
+/* a {
+  color: crimson;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: darkmagenta;
+  text-decoration: underline;
+  background-color: aqua;
+} */
+
+
+
+
+/* Letter Spacing & Line height */
+/* p {
+  font-size: 12px;
+  /* letter-spacing: 2px; */
+  /* word-spacing: 2px; */
+  /* line-height: 30px; */
+ /* letter-spacing: 0.2em;
+} */
+
+
+
+/* Paragragh Spacing */
+/* p {
+  font-size: 14px;
+  line-height: 2em;
+  margin-bottom: 32px;
+} */
+
+
+
+/* The Box Model */
+/* .box {
+  margin: 30px;
+  padding: 30px;
+  border: 4px solid #000;
+  width: 400px;
+  height: 200px;
+} */
+
+
+
+/* Margins */
+/* .box {
+  margin: 30px auto;
+  /* padding: 30px; */
+ /* border: 1px solid #000;
+  width: 50%;
+} */
+
+
+/* Padding */
+/* .box {
+  margin: 30px auto;
+  padding: 30px 20%;
+  border: 1px solid #000;
+} */
+
+
+/* Padding & Margin Long-hand */
+/* .box {
+  border: 1px solid #000;
+  /* margin-top: 10px; */
+  /*padding: 20px;
+/*}
+
+.small {
+  padding-left: 5px;
+} */
+
+
+
+
+/* Borders */
+/* .box {
+  padding: 20px;
+  margin: 20px;
+  float: left;
+}
+
+.dashed {
+  border: 4px dashed blue;
+}
+.dotted {
+  border: 4px dotted blue;
+}
+.double {
+  border: 4px double blue;
+}
+.groove {
+  border: 4px groove blue;
+}
+.inset {
+  border: 4px inset blue;
+}
+.outset {
+  border: 4px outset blue;
+}
+.ridge {
+  border: 4px ridge blue;
+}
+.solid {
+  border: 4px solid blue;
+} */
+
+
+
+/* block-level elements */
+/* .block {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #000;
+}
+
+.inline {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #000;
+  display: inline-block;
+} */
+
+
+
+/* Width & Height */
+/* #main-content div {
+  background-color: #ccc;
+  margin: 0 0 20px 0;
+}
+
+.static-width {
+  width: 300px;
+  height: 100px;
+  border-radius: 18px;
+}
+
+.percentage-width {
+  width: 70%;
+  height: 50px;
+  border-radius: 5px 10px;
+}
+
+.inline-block {
+  /* width: 40%;
+  display: inline-block; */
+  /*width: 100px;
+  height: 100px;
+  border-radius: 50px;
+} */
+
+
+
+/* Background */
+/* .static-width {
+  width: 300px;
+  height: 300px; */
+  /* background-color: #606060;
+  background-image: url("/img/messi.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 200px; */
+  /* background: url('/img/messi.jpg') no-repeat top center; */
+  /* background-color: #000;
+  background-size: 200px;
+} */
+
+
+
+
+
+/* Multiple Backgrounds */
+/* #banner {
+  background-color: #606060;
+  width: 100%;
+  height: 300px;
+  background-image: url('/img/messi.jpg');
+  background-repeat: no-repeat;
+  background-position: center, top left;
+  background-size: 300px, 100%;
+} */
+
+
+
+/* Color */
+/* #banner {
+  width: 100%;
+  height: 300px;
+  background-color: #520000;
+  background-color: rgb(0,0,0);
+} */
+
+
+/* Opacity */
+/* #circle {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  background: rgb(200,200,100);
+  border-radius: 200px;
+  top: 50px;
+  left: 50px;
+  opacity: 1;
+  text-align: center;
+}
+#circle-2 {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  background: rgb(200,100,200);
+  border-radius: 200px;
+  top: 250px;
+  left: 150px;
+  opacity: 0.3;
+  text-align: center;
+}
+#circle-3 {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  background: rgba(121, 126, 126, 0.1);
+  border-radius: 200px;
+  top: 50px;
+  left: 250px;
+  text-align: center;
+} */
+
+
+/* GRADIENTS */
+.button {
+  display: block;
+  width: 100px;
+  padding: 12px;
+  border: 1px solid #77aaaa;
+  font-family: arial;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  background: #77aaaa;
+  border-radius: 4px;
+  background: #aadddd;
+  background: -webkit-linear-gradient(top, #aadddd 0%, #77aaaa 100%);
+  box-shadow: 2px 2px 4px 2px rgba(40, 40, 40, 0.6);
+ 
+} 
+
+.button:hover {
+  background: #77aaaa;
+  border-radius: 4px;
+  background: #aadddd;
+  background: -webkit-linear-gradient(bottom, #aadddd 0%, #77aaaa 100%);
+} 
+
+/*  Box Shadow */

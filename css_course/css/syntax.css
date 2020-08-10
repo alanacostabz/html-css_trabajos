@@ -1,0 +1,24 @@
+/*********************************************************
+*
+*Author: Alan Acosta
+*Date: 31.08.19
+*
+**********************************************************/
+
+
+/*Style all P tags*/
+
+p {
+  font-size: 18px;
+  color: blue;
+}
+
+#header {
+  font-size: 24px;
+}
+
+/* Style all header tags */
+
+h1 {
+  font-size: 44px;
+}
